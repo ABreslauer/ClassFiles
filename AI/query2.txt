@@ -1,0 +1,10 @@
+prefix :  <http://www.lyle.smu.edu//#>
+prefix schema: <http://schema.org/>
+
+SELECT DISTINCT ?x
+WHERE
+{
+    {
+        ?x schema:givenName "Roger".
+    }
+}

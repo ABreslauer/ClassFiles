@@ -1,0 +1,25 @@
+Passwords Solved with John the Ripper using rockyou.txt:
+HelpAssistant:EC*3RE7H3JLKUX
+Analyst:ADMIN
+Joe:PASSWORD1
+bob:123456789
+MarkHoffman:THORSTEN97
+MarD:CELESTE
+Snoopy:???????IWTWOT
+BadHacker:1337SP3@K
+user1:LETMEIN
+Lucy:???????O
+FacbookLogin:FACEBOOK123
+Woodstock:!@#$%^&???????
+Patty:ABC123
+PigPen:A
+Rerun:PASSWORD1
+Marcie:MARCIE1
+Franklin:KITE
+
+Unsolved Passwords:
+Administrator
+Guest
+SUPPORT_388945a0
+CharlieBrown
+Schroeder

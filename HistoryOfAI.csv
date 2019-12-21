@@ -1,9 +1,0 @@
-id,name,date,description
-ai01,Alan Turing publishes: Can Machines Think?,1950,"This paper established the idea of a ""Turing Test"", which tests a machine's ability to demonstrate intelligent behavior like that of a human."
-ai02,Dartmouth Summer Research Project on AI,1956,"This is widely considered to be the founding of the AI field, as well as where John McCarthy established the term ""Artificial Intelligence""."
-ai03,Eliza - the Rogerian therapist program,1964,"ELIZA was the first widely populated instance of any sort of AI, despite merely simulating conversation with pattern matching to give the impression that ELIZA understood the other user. "
-ai04,Deep Blue defeats Gary Kasparov in Chess,1997,"Fun fact: Deep Blue actually lost the full 6-game series, but Deep Blue did beat the then-world-champion Gary Kasparov in game 1."
-ai05,Google DeepMind's AlphaGo GO champion,2016,"AlphaGo defeats 3 of the worlds top players (Fan Hui, Lee Sodol, and Ke Jie) in GO"
-ai06,Google DeepMind's AlphaGoZero stomps AlphaGo,2017,"AlphaGoZero dominated AlphaGo 100 games to 0, using only self-taught strategies. It also had only 3 days to learn the game, as opposed to AlphaGo's months."
-ai07,BKG defeats world-champion backgammon player,1979,This defeat demonstrated one of the first applications of Artificial Intelligences to real-world problems (and by that I mean real-world board games).
-ai08,IBM Watson competes on Jeopardy,2011,Watson defeated two of the best former Jeopardy champions by a wide margin. This is also famous because of Watson's error in thinking Toronto is an American city

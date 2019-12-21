@@ -1,0 +1,17 @@
+@prefix :     <http://www.codesupreme.com/#>
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+@prefix schema: <http://schema.org>
+@prefix foaf:  <http://xmlns.com/foaf/0.1/>
+@prefix owl: <http://www.w3.org/2002/07/owl#>
+
+:roger schema:knows :albert .
+:roger schema:knows :bob .
+
+:roger schema:givenName "Roger" .
+
+:albert :hasCribIn :California .
+:bob    :hasCribIn :California .
+
+:bob     :shorterThan   :charlie .
+:charlie :shorterThan   :albert .
