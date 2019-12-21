@@ -1,0 +1,31 @@
+@prefix :  <http://www.lyle.smu.edu//#>.
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix schema: <http://schema.org/>
+
+
+:abreslauer :isa "Person".
+:abreslauer schema:jobTitle "Student".
+:abreslauer schema:birthdate '19980501'.
+:abreslauer schema:birthplace "Leonardtown".
+:abreslauer schema:familyName "Breslauer".
+:abreslauer schema:givenName "Andrew".
+:abreslauer schema:gender "Male".
+:abreslauer schema:knowsAbout "Coding".
+:abreslauer schema:knowsLanguage "en"^^xsd:language.
+:abreslauer schema:owns "Computers".
+:SMU schema:affiliation schema:organization.
+:abreslauer schema:affiliation :SMU.
+:abreslauer schema:knows :Michael.
+
+:Michael :isa "Person".
+:Michael schema:affiliation :SMU.
+:Michael schema:jobTitle "Student".
+:Michael schema:familyName "Watts".
+:Michael schema:gender "Male".
+:Michael schema:owns "Boat".
+:Michael schema:knows :abreslauer.
+:abreslauer schema:height "6 feet, 5 inches".
+:abreslauer schema:nationality "American".
+:Michael schema:nationality "American".

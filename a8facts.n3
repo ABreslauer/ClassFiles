@@ -1,0 +1,7 @@
+@prefix :  http://s2.smu.edu/~abreslauer
+:Rollo      :has :Party .
+:Gogo       :has :house .
+:Rollo      :has :friends .
+:Zola       :has :snacks .
+:party      :has :atmosphere .
+:Sting      :has :records .

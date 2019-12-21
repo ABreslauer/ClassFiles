@@ -1,0 +1,22 @@
+@prefix :       <http://www.codesupreme.com/#>
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#>
+@prefix schema: <http://schema.org>
+@prefix foaf:   <http://xmlns.com/foaf/0.1/>
+@prefix owl:    <http://www.w3.org/2002/07/owl#>
+
+# a knows b -> b knows a
+schema:knows  rdf:type owl:SymmetricProperty .
+
+# a knows b -> a and b are persons
+schema:knows rdfs:range schema:Person .
+schema:knows rdfs:domain schema:Person .
+
+# link :hasCribIn to schema:homeLocation
+:hasCribIn owl:equivalentProperty schema:homeLocation .
+
+# Make height comparisons transitive
+:shorterThan rdf:type owl:TransitiveProperty .
+
+# Shorter is inverse of Taller
+:shorterThan owl:inverseOf :tallerThan .
